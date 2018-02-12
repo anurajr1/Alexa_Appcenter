@@ -1,0 +1,14 @@
+{
+  "name": "command",
+  "version": "1.0.0",
+  "description": "command",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Viji",
+  "dependencies": {
+    "roslib": "0.18.0",
+    "ws": "3.2.0"
+  }
+}
