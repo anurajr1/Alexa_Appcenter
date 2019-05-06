@@ -331,3 +331,4 @@ const richResponsesV2 = [
     'card': richResponseV2Card
   }
 ];
+
