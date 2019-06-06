@@ -112,7 +112,9 @@ function processV1Request (request, response) {
       app.ask(googleResponse); // Send response to Dialogflow and Google Assistant
     }
   }
+	
   // Function to send correctly formatted responses to Dialogflow which are then sent to the user
+	
   function sendResponse (responseToUser) {
     // if the response is a string send it as a response to the user
     if (typeof responseToUser === 'string') {
